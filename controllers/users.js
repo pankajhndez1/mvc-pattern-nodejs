@@ -31,10 +31,10 @@ async function createUser(req, res) {
   }
 
   await User.create(userData)
-    .then((res) => {
+    .then((createdUser) => {
       return res
         .status(201)
-        .json({ msg: "User created successfully !!", id: res._id });
+        .json({ msg: "User created successfully !!", id: createdUser._id });
     })
     .catch((err) => {
       return res.status(500).json({ msg: err.message });

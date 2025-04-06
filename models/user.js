@@ -9,6 +9,5 @@ const userSchema = new Schema({
 });
 
 //second create a model
-
 const User = mongoose.model("User", userSchema);
 module.exports = User;

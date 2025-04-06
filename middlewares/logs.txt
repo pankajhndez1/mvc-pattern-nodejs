@@ -1,0 +1,3 @@
+Time: 2025-04-06T12:12:21.917Z, Method: GET, URL: /api/users
+Time: 2025-04-06T12:12:39.806Z, Method: POST, URL: /api/users
+Time: 2025-04-06T12:15:13.940Z, Method: POST, URL: /api/users
